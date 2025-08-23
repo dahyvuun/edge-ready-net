@@ -90,6 +90,18 @@ OpenVINO Execution Provider (Intel CPU)
 
 pip install onnxruntime-openvino
 
+## 🔮 Future Work
+
+To further optimize for edge devices, the following directions are possible:
+
+- **Pruning**: Remove redundant connections/filters to reduce computation while maintaining accuracy.  
+- **Quantization (INT8)**: Convert model weights to 8-bit precision for faster inference and smaller footprint.  
+- **OpenVINO Execution Provider**: Leverage Intel CPU acceleration backend for additional runtime speedup.  
+- **Mobile Deployment**: Package the ONNX model for mobile (Android/iOS) apps or web inference.  
+
+*(These steps are planned but not yet included in this repository. The current pipeline already supports full training, inference, ONNX export, and CPU benchmarking.)*
+
+
 ##Citation
 U-Net: Ronneberger et al., 2015
 DRIVE: Digital Retinal Images for Vessel Extraction
