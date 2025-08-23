@@ -1,0 +1,12 @@
+__pycache__/
+*.pth
+*.onnx
+*.pt
+*.log
+.DS_Store
+
+data/
+checkpoints/
+outputs/
+outputs_onnx/
+assets/
